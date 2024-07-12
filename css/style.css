@@ -52,6 +52,7 @@ body {
 .alphabets a {
     color: white;
     text-decoration: none;
+    font-size: 20px;
     padding: 10px 15px;
     text-shadow: -10px -2px 4px #000000;
     transition: background-color 0.3s;
