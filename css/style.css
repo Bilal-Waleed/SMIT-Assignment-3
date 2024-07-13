@@ -75,7 +75,7 @@ section {
     padding: 20px;
     background-color: #bbb8b8;
     border-radius: 20px;
-    box-shadow: 40px 40px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 40px 40px 12px rgba(0, 0, 0, 0.5);
     text-align: center;
     width: 40%;
     max-width: 800px;
@@ -93,7 +93,7 @@ p{
     font-family: "Merriweather", serif;
     font-style: italic;
     font-size: 28px;
-    text-shadow: 20px 12px 12px #414040;
+    text-shadow: 20px 12px 8px #414040;
     font-weight: 900;
     margin-top: 3px;
 }
