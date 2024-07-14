@@ -24,6 +24,7 @@ body {
     text-shadow: -10px -3px 15px #000000;
     justify-content: center;
     font-size: 44px;
+    margin-bottom: 12px;
 }
 .letter-a, .letter-b, .letter-c {
     margin-right: 10px; 
@@ -67,7 +68,7 @@ body {
     background-color: #555;
     align-items: center;
     justify-content: center;
-    padding-top: 60px;
+    padding-top: 10px;
 }
 
 section {
@@ -101,7 +102,7 @@ p{
 section img {
     width: 40%;
     border-radius: 20px;
-    box-shadow:  30px 20px 15px rgba(0, 0, 0, 0.5);
+    box-shadow:  30px 25px 15px rgba(0, 0, 0, 0.5);
     margin-bottom: 10px;
 }
 
@@ -118,7 +119,7 @@ section img {
     z-index: 20;
 }
 
-#fixed-button a {
+a i {
     color: white;
 }
 
@@ -161,12 +162,14 @@ section img {
 }
 
 @media (max-width: 600px) {
-    .main-content{
-        padding: 20px;
+    .top-heading{
+        margin-top: 4px;
+        font-size: 30px;
+        margin-bottom: 4px;
     }
     .alphabets a {
-        padding: 8px 10px;
-        font-size: 14px;
+        padding: 5px 10px;
+        font-size: 12px;
     }
     section{
         margin: 30px;
